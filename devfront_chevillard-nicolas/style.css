@@ -1,0 +1,38 @@
+.image-logo {
+    width: 50px;
+    height: 50px;
+}
+
+/* image header */
+
+.img-harry {
+    max-width: 30%;
+    max-height: 30%;
+
+}
+
+.img-product {
+    width: 150px;
+    height: 150px;
+    
+}
+
+/* Container produit */
+
+.product-container {
+    max-width: 250px;
+    max-height: 500px;
+    align-items: center;
+    
+}
+
+/* container article */
+
+.container-article {
+   display: flex;
+   justify-content: space-around;
+ 
+}
+
+/* style header */
+
