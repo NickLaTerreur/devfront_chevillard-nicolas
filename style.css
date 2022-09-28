@@ -1,3 +1,34 @@
+/* style header */
+
+
+body {
+    font-family: merriweather, sans-serif;  
+    color: #272640;
+  }
+
+  @font-face {
+      font-family: 'merriweather';
+      src: url(./fonts/Merriweather/Merriweather-Black.ttf);
+  }
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    display: none;
+}
+
+
+
+
+
+
+
 .image-logo {
     width: 50px;
     height: 50px;
@@ -34,5 +65,7 @@
  
 }
 
-/* style header */
+
+
+
 
