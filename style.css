@@ -1,5 +1,8 @@
-/* style header */
 
+
+a {
+    text-decoration: none;
+}
 
 body {
     font-family: merriweather, sans-serif;  
@@ -11,19 +14,26 @@ body {
       src: url(./fonts/Merriweather/Merriweather-Black.ttf);
   }
 
-a:visited {
+a:visited, 
+a:active 
+{
     color: black;
+   
 }
 
 a:hover {
     color: red;
+    text-decoration: underline 4px;
+    
 }
 
-a:active {
-    display: none;
+/* style header */
+
+.background-header {
+    background-color: rgb(255, 238, 0);
+    font-weight: 700;
+    
 }
-
-
 
 
 
